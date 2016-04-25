@@ -1,0 +1,29 @@
+{
+  "name": "emailjs-pgp-builder",
+  "version": "1.0.0",
+  "homepage": "https://github.com/emailjs/emailjs-pgp-builder",
+  "description": "Builds a PGP/MIME message, no magic involved.",
+  "author": "Felix Hammerl <felix.hammerl@gmail.com>",
+  "keywords": ["PGP", "PGP/MIME"],
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/emailjs-pgp-builder-unit.js -R spec"
+  },
+  "engines": {
+    "node": ">=4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/emailjs/emailjs-pgp-builder.git"
+  },
+  "main": "src/emailjs-pgp-builder.js",
+  "dependencies": {
+    "emailjs-mime-builder": "~1.0.1"
+  },
+  "devDependencies": {
+    "emailjs-mime-parser": "~1.0.0",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  }
+}
