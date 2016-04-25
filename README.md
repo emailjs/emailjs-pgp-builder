@@ -77,7 +77,7 @@ console.log(message.raw)
 console.log(message.smtpEnvelope)
 ```
 
-NB! pgpsign is whatever you use to PGP-sign the content.
+NB! pgpencrypt is whatever you use to PGP-encrypt the content.
 
 
 ## License
