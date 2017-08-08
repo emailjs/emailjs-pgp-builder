@@ -1,5 +1,7 @@
 # emailjs-pgp-builder
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/emailjs/emailjs-pgp-builder.svg)](https://greenkeeper.io/)
+
 Builds PGP/MIME, no magic/encryption included.
 
 ## Usage
