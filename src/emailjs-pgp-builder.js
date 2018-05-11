@@ -57,13 +57,20 @@ Outbox.prototype.buildPlaintext = function(message) {
 };
 
 Outbox.prototype._createEnvelope = function(message, root) {
-    root.setHeader({
+
+    const header = {
         subject: message.subject,
         from: message.from,
         to: message.to,
         cc: message.cc,
         bcc: message.bcc
-    });
+    };
+
+    if(message.id) {
+      header['message-id'] = message.id;
+    }
+
+    root.setHeader(header);
 };
 
 Outbox.prototype.buildSigned = function(message, signedRoot, signature) {
