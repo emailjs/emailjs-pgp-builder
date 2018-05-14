@@ -79,8 +79,8 @@ console.log(message.smtpEnvelope)
 
 NB! pgpencrypt is whatever you use to PGP-encrypt the content.
 
+You might want to try [openpgpjs](doc/openpgpjs-example.md) for example.
 
 ## License
 
 MIT
-
