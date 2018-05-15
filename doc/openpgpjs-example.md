@@ -11,7 +11,7 @@ const Outbox = require('emailjs-pgp-builder');
  *
  * @returns {Promise<Object>} promise of pgp key object
  */
-function getSigningKey() :Promise<Object> {
+function getSigningKey() {
   const signingAddress = 'my-signer@example.com';
   const signingKey = pgp.key.readArmored(fs.readFileSync(`keys/${signingAddress}.asc`).toString()).keys[0];
   const passphrase = 'my super secret passphrase';
