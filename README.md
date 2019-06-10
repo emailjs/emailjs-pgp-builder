@@ -1,5 +1,16 @@
 # emailjs-pgp-builder
 
+## DEPRECATION NOTICE
+
+This project is not actively maintained. If you're sending emails on a node.js-esque platform, please use Andris Reinman's [nodemailer](https://github.com/nodemailer/nodemailer). It is actively supported, widely used and maintained, and many possibilities for sending via SMTP.
+
+If you still feel this project has merit and you would like to be a maintainer, please reach out to Felix.
+
+
+
+
+
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/emailjs/emailjs-pgp-builder.svg)](https://greenkeeper.io/)
 
 Builds PGP/MIME, no magic/encryption included.
